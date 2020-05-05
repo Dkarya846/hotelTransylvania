@@ -5,40 +5,45 @@ nav {
   background-color: $navBacCol;
   height: auto;
   overflow: hidden;
-}
-nav a {
-  float: left;
-  font-size: 25px;
-  padding: 15px 20px;
-  color: $foreColor;
-  font-family: Alegreya;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
+  a {
+    float: left;
+    font-size: 25px;
+    padding: 15px 20px;
+    color: $foreColor;
+    font-family: Alegreya;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+  }
 }
 
-nav img {
-  float: right;
-  width: 150px;
-  height: 62px;
-  color: $foreColor;
-  border-radius: 5px;
-  text-align: center;
-}
-nav a:hover {
-  background-color: $foreColor;
-  color: $navBacCol;
-}
-nav a.activeOne {
-  background-color: green;
-  color: $navBacCol;
-}
-@media (max-width: 700px) {
-  nav a {
-    font-size: 15px;
+nav {
+  img {
+    float: right;
+    width: 150px;
+    height: 62px;
+    color: $foreColor;
+    border-radius: 5px;
+    text-align: center;
   }
-  nav img {
-    height: 50px;
+  a:hover {
+    background-color: $foreColor;
+    color: $navBacCol;
+  }
+  a.activeOne {
+    background-color: green;
+    color: $navBacCol;
+  }
+}
+
+@media (max-width: 700px) {
+  nav {
+    a {
+      font-size: 15px;
+    }
+    img {
+      height: 50px;
+    }
   }
 }
 @media (max-width: 600px) {
@@ -46,20 +51,20 @@ nav a.activeOne {
     background-color: $navBacCol;
     overflow: hidden;
     height: 140px;
-  }
-  nav a {
-    width: 100%;
-    font-size: 18px;
-    padding: 0;
-  }
-  nav img {
-    float: none;
-    height: 45px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  nav a:hover {
-    background-color: $foreColor;
+    a {
+      width: 100%;
+      font-size: 18px;
+      padding: 0;
+    }
+    img {
+      float: none;
+      height: 45px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    a:hover {
+      background-color: $foreColor;
+    }
   }
 }

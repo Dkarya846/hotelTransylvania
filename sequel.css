@@ -6,3 +6,31 @@ body {
   background-color: black;
   color: white;
 }
+
+.section {
+  padding: 20px;
+  font-family: Alegreya, serif;
+}
+.section ul {
+  padding: 20px;
+  list-style: none;
+  text-decoration: none;
+}
+iframe {
+  border: 2px white solid;
+  width: 50%;
+  height: 50vh;
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  iframe {
+    width: 80vw;
+    height: 40vh;
+  }
+}
+.border {
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: inset white;
+}

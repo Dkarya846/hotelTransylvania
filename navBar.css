@@ -3,7 +3,6 @@ nav {
   height: auto;
   overflow: hidden;
 }
-
 nav a {
   float: left;
   font-size: 25px;
@@ -23,12 +22,10 @@ nav img {
   border-radius: 5px;
   text-align: center;
 }
-
 nav a:hover {
   background-color: white;
   color: purple;
 }
-
 nav a.activeOne {
   background-color: green;
   color: purple;
@@ -38,7 +35,6 @@ nav a.activeOne {
   nav a {
     font-size: 15px;
   }
-
   nav img {
     height: 50px;
   }
@@ -49,13 +45,11 @@ nav a.activeOne {
     overflow: hidden;
     height: 140px;
   }
-
   nav a {
     width: 100%;
     font-size: 18px;
     padding: 0;
   }
-
   nav img {
     float: none;
     height: 45px;
@@ -63,7 +57,6 @@ nav a.activeOne {
     margin-left: auto;
     margin-right: auto;
   }
-
   nav a:hover {
     background-color: white;
   }
