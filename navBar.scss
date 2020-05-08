@@ -1,9 +1,14 @@
 $navBacCol: purple;
 $foreColor: white;
-
-nav {
+body {
+  margin: 0;
+}
+.navBar {
   background-color: $navBacCol;
   height: auto;
+  position: fixed;
+  width: 100%;
+  top: 0;
   overflow: hidden;
   a {
     float: left;
@@ -17,7 +22,7 @@ nav {
   }
 }
 
-nav {
+.navBar {
   img {
     float: right;
     width: 150px;
@@ -37,7 +42,7 @@ nav {
 }
 
 @media (max-width: 700px) {
-  nav {
+  .navBar {
     a {
       font-size: 15px;
     }
@@ -47,7 +52,7 @@ nav {
   }
 }
 @media (max-width: 600px) {
-  nav {
+  .navBar {
     background-color: $navBacCol;
     overflow: hidden;
     height: 140px;

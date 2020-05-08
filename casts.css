@@ -2,7 +2,51 @@
   margin: 0;
   padding: 0;
 }
+.navBar {
+  z-index: 1;
+}
+.navBar > img {
+  float: right;
+}
 body {
   background-color: black;
   color: white;
+}
+.container {
+  margin-top: 80px;
+}
+td {
+  padding-top: 3%;
+  width: 25%;
+}
+@media (max-width: 600px) {
+  .navBar > img {
+    float: none;
+    padding-bottom: 10px;
+  }
+  .navBar {
+    position: relative;
+  }
+  .container {
+    margin-top: 0;
+  }
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.col {
+  text-align: center;
+  border: 1px white solid;
+}
+.grey {
+  color: white;
+  background-color: gray;
+}
+
+.red {
+  color: floralwhite;
+  background-color: coral;
 }

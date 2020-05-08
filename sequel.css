@@ -8,6 +8,7 @@ body {
 }
 
 .section {
+  margin-top: 50px;
   padding: 20px;
   font-family: Alegreya, serif;
 }
@@ -16,6 +17,9 @@ body {
   list-style: none;
   text-decoration: none;
 }
+#line1 {
+  display: none;
+}
 iframe {
   border: 2px white solid;
   width: 50%;
@@ -23,10 +27,22 @@ iframe {
   border-radius: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
+  .navBar {
+    position: relative;
+  }
+  #line1 {
+    display: block;
+  }
   iframe {
     width: 80vw;
     height: 40vh;
+  }
+  #border {
+    border: 0px;
+  }
+  .section {
+    margin-top: 0px;
   }
 }
 .border {

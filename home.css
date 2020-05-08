@@ -9,6 +9,7 @@ body {
 
 .about,
 .plot {
+  margin-top: 30px;
   padding: 20px;
   font-family: Alegreya, serif;
 }
@@ -24,4 +25,13 @@ a {
   height: 40%;
   border: solid 2px;
   border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  .navBar {
+    position: relative;
+  }
+  .about {
+    margin-top: 0px;
+  }
 }
