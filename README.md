@@ -1,5 +1,5 @@
 # Hotel Transylvania
-This website is based on a Movie named "Hotel Transylvania" and shows you introductory details of the movie and all other sequels of the movie. It contains trailers of each part of the movie, characters and their voice cast and awards won by the movie and its cast and crew.
+This website project is based on a Movie named "Hotel Transylvania" and shows you introductory details of the movie and all other sequels of the movie. It contains trailers of each part of the movie, characters and their voice cast and awards won by the movie and its cast and crew.
 
 
 
